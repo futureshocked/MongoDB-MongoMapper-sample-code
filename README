@@ -1,0 +1,12 @@
+This sample code is a gentle introduction to the very basics of MongoDB and Mongomapper.
+
+First, edit the model.rb file with the correct connection configuration (replace the "x" with actual values).
+
+Then, store a quote by running write.rb:
+
+     ruby write.rb "Peter" "Lecturer" "Do your homework."
+
+Last, retrieve all values in the quotes collection by running read.rb:
+
+     ruby read.rb
+
